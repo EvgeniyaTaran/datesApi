@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using DomainModel;
 using System.Web.Http;
-using System.Web.Mvc;
-using DomainModel;
 
 namespace DatesApp.Controllers
 {
-    public class BaseController : ApiController
+	public class BaseController : ApiController
     {
 	    protected EntityContext Db;
 		//Dryioc wants a public parameterless constructor

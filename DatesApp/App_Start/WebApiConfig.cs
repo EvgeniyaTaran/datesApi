@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.Http;
-using DatesApp.App_Start;
-using DomainModel;
+﻿using DatesApp.App_Start;
 using DryIoc;
 using DryIoc.WebApi;
+using System.Web.Http;
 
 namespace DatesApp
 {
@@ -22,7 +18,6 @@ namespace DatesApp
 
 			// Web API routes
 			config.MapHttpAttributeRoutes();
-
 
 			config.Routes.MapHttpRoute(
 				name: "GetDates",

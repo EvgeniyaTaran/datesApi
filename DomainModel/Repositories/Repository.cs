@@ -1,10 +1,7 @@
-﻿using System;
+﻿using DomainModel.Entities;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DomainModel.Entities;
 
 namespace DomainModel.Repositories
 {
