@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Dates API</h2>
+
+<div>
+	<h4>localhost:port/api/dates/startDate/finishDate GET method</h4>
+	<h4>localhost:port/api/dates/ POST method. </h4>
+	Pass two dates as a payload. For example
+	dateStart:2018-01-01
+	dateFinish:2018-01-03
+</div>
+<br>
+<form>
+	<input type="date" id="dateStart" />
+	<input type="date" id="dateFinish" />
+	<button type="button" id="submitBtn">Submit</button>
+</form>
+<div id="message" hidden style="color:darkgreen">You've added dates successfully.</div>
